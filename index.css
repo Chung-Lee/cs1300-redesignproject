@@ -1,0 +1,140 @@
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size:20px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+
+
+
+.heng-back{
+
+display:flex;
+width: 100%;
+height: 30%;
+left: 0px;
+top: 0px;
+z-index: -1;
+background: url(background.png);
+}
+
+
+
+.starter{
+display: flex;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 26%;
+text-align: center;
+font-size: 18px;
+
+}
+
+div.menu_rect {
+background: rgba(214, 176, 79, 0.6);
+position: fixed;
+display:flex;
+left: 40%;
+top: 15%;
+padding: 20px;
+text-align: center;
+font-size: 70px;
+font-family: monospace;
+font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  div.menu_rect {
+    font-size: 20px;
+  }
+}
+
+
+.soup{
+display: flex;
+width: 100%;
+height: 100%;
+left: 33.3333333%;
+top: 26%;
+
+}
+
+.spicy{
+display: flex;
+width: 100%;
+height: 100%;
+left: 66.6666666%;
+top: 26%;
+
+}
+
+.noodle{
+display: flex;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 63%;
+
+background: url(heng%20nodle.jpg);
+}
+
+.eats{
+display: flex;
+width: 100%;
+height: 100%;
+left: 33.3333333%;
+top: 63%;
+
+background: url(heng%20eats.jpg);
+}
+
+.drinks{
+display: flex;
+width: 100%;
+height: 100%;
+left: 66.6666666%;
+top: 63%;
+
+background: url(heng%20drink.jpg); 
+}
+
+.flex-container {
+  display: flex;
+  background-color: dimgray;
+}
+
+.flex-container > div {
+  background-color: dimgray;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  font-size: 30px;
+}
+
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    font-size:10px;
+  }
+    
+    
+.
+
